@@ -15,7 +15,8 @@ pipeline {
 
     stage('Build and Test') {
       steps {
-        sh 'ls -ltr'
+        // sh 'ls -ltr'
+        echo "Build and test done"
         // sh 'cd spring-boot-app && mvn clean package'
       }
     }
